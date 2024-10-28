@@ -485,7 +485,7 @@ button:hover {
     text-align: center;
   }
 
-  .--contentItemReversed {
+  .contentItemReversed {
     flex-direction: column-reverse;
     gap: 20px;
     text-align: center;
