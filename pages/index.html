@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studentský projekt webové stránky">
+  <title>DiscMasters</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="headerWrapper">
+      <!-- Logo -->
+      <a href="index.html" class="logoWrapper">
+        <img class="logo" src="/img/web-icon.svg" alt="Logo" />
+        <h2>DiscMasters</h2>
+      </a>
+      <!-- Navigace -->
+      <nav class="navigation">
+        <ul class="navList">
+          <li><a class="navListItem" href="index.html">Domů</a></li>
+          <li><a class="navListItem" href="about.html">O sportu</a></li>
+          <li><a class="navListItem" href="discs.html">Disky</a></li>
+          <li><a class="navListItem" href="gallery.html">Galerie</a></li>
+          <li><a class="navListItem" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="navMenu" id="navMenu">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="about.html">O sportu</a></li>
+          <li><a href="discs.html">Disky</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Obsah stránky -->
+  <main class="main">
+    <!-- Perex obrázek na pozadí -->
+    <img class="mainBackground" src="/img/background.jpg" alt="Obrázek do pozadí">
+    <!-- Perex -->
+    <section class="perex">
+      <h1 class="perexTitle">Vítejte na našem webu o discgolfu!</h1>
+      <h2 class="perexDescription">
+        Discgolfový web "DiscMasters" nabízí komplexní přehled discgolfových hřišť, turnajů, vybavení a tipů na zlepšení
+        techniky pro hráče všech úrovní. Uživatelé zde najdou interaktivní mapy hřišť, recenze vybavení a možnost
+        registrace na turnaje. Web je navržen s důrazem na jednoduchý, přehledný design a skvělou použitelnost na
+        mobilních zařízeních.
+      </h2>
+    </section>
+    <!-- Popis všech stránek -->
+    <section class="pageContent">
+      <!-- O sportu -->
+      <div class="contentItem --contentItemReversed">
+        <div class="contentItemText">
+          <h2 class="itemTextTitle">O sportu</h2>
+          <p class="itemTextDescription">
+            Tato stránka vás seznámí se základy discgolfu, včetně pravidel a principů hry. Dozvíte se o historii tohoto
+            rychle
+            rostoucího sportu a jeho popularitě po celém světě. K dispozici jsou také tipy a triky, jak zdokonalit svou
+            techniku a
+            vybavení, aby vaše hra byla co nejlepší.
+          </p>
+        </div>
+        <div class="contentItemImg">
+          <img class="itemImg" src="/img/about-about.jpg" alt="Zig-zag obrázek">
+        </div>
+      </div>
+      <!-- Disky -->
+      <div class="contentItem">
+        <div class="contentItemImg">
+          <img class="itemImg" src="/img/disky.jpg" alt="Zig-zag obrázek">
+        </div>
+        <div class="contentItemText">
+          <h2 class="itemTextTitle">Disky</h2>
+          <p class="itemTextDescription">
+            Sekce Disky obsahuje všechny informace o discích, které jsou potřebné k plnému jejich porozumnění.
+            Je to velice důležité, protože podle toho si poté hráč kupuje disky a také si z nich vybírá při samotné
+            hře podle situace.
+          </p>
+        </div>
+      </div>
+      <!-- Galerie -->
+      <div class="contentItem --contentItemReversed">
+        <div class="contentItemText">
+          <h2 class="itemTextTitle">Galerie</h2>
+          <p class="itemTextDescription">
+            Sekce Galerie obsahuje fotky z různých turnajů, soutěží a událostí, které zachycují dynamiku a atmosféru
+            discgolfu.
+            Uvidíte také snímky krásných hřišť a scenérií, kde se tento sport hraje. Fotografie slouží nejen jako
+            inspirace, ale
+            také jako ukázka míst, která stojí za návštěvu.
+          </p>
+        </div>
+        <div class="contentItemImg">
+          <img class="itemImg" src="/img/disky.jpg" alt="Zig-zag obrázek">
+        </div>
+      </div>
+      <!-- Kontakt -->
+      <div class="contentItem">
+        <div class="contentItemImg">
+          <img class="itemImg" src="/img/pratele.jpg" alt="Zig-zag obrázek">
+        </div>
+        <div class="contentItemText">
+          <h2 class="itemTextTitle">Kontakt</h2>
+          <p class="itemTextDescription">
+            Stránka Kontakt vám umožňuje snadno se spojit s námi přes jednoduchý kontaktní formulář. Poskytujeme zde
+            také
+            přímý
+            email pro případné dotazy či spolupráci. Najdete zde i naše sociální sítě, kde můžete sledovat aktuální dění
+            a
+            být v
+            kontaktu s komunitou discgolfových nadšenců.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Formulář -->
+    <section class="contactFormWrapper">
+      <h2 class="formTitle">Kontaktujte nás</h2>
+      <form class="contactForm" id="contactForm">
+        <div class="formTop">
+          <div class="formItem">
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="formItem">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="formBottom">
+          <div class="formItem">
+            <label for="message">Zpráva:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+        </div>
+        <button type="submit">Odeslat</button>
+      </form>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footerWrapper">
+    <p class="copyright">&copy; 2024 DiscMasters. Všechna práva vyhrazena.</p>
+    <p class="lastUpdate">Datum poslední aktualizace: <span id="updateDate"></span><br>Tento projekt vznikl jako
+      semestrální projekt.</p>
+    <a class="mailLink" href="mailto:contact@discmasters.cz">contact@discmasters.cz</a>
+  </footer>
+  <!-- Skripty -->
+  <script src="/scripts/lastModified.js" defer></script>
+  <script src="/scripts/hamburgerMenu.js" defer></script>
+  <script src="/scripts/formHandler.js" defer></script>
+</body>
+
+</html>

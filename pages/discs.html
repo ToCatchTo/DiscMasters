@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studentský projekt webové stránky">
+  <title>DiscMasters</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="headerWrapper">
+      <!-- Logo -->
+      <a href="index.html" class="logoWrapper">
+        <img class="logo" src="/img/web-icon.svg" alt="Logo" />
+        <h2>DiscMasters</h2>
+      </a>
+      <!-- Navigace -->
+      <nav class="navigation">
+        <ul class="navList">
+          <li><a class="navListItem" href="index.html">Domů</a></li>
+          <li><a class="navListItem" href="about.html">O sportu</a></li>
+          <li><a class="navListItem" href="discs.html">Disky</a></li>
+          <li><a class="navListItem" href="gallery.html">Galerie</a></li>
+          <li><a class="navListItem" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="navMenu" id="navMenu">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="about.html">O sportu</a></li>
+          <li><a href="discs.html">Disky</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Obsah stránky -->
+  <main class="main">
+    <!-- Tipy disků -->
+    <section class="aboutInfo">
+      <div class="infoSection">
+        <h2>Rozdělení</h2>
+        <p>
+          Discgolfové disky jsou navrženy tak, aby plnily různé funkce a poskytovaly hráčům optimální kontrolu nad
+          jejich hody. Existují tři hlavní typy disků: drivery, midrange disky a puttery.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Drivery</h2>
+        <p>
+          Drivery jsou disky s ostrou hranou a aerodynamickým profilem, což jim umožňuje dosahovat vysoké rychlosti a
+          dlouhých vzdáleností. Jsou ideální pro první hody na jamkách, kde je potřeba co největší dosah. Drivery se
+          dále dělí na „distance drivery“, které jsou určeny pro maximální vzdálenosti, a „fairway drivery“, které jsou
+          vhodné pro středně dlouhé hody s lepší kontrolou letu.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Midrange</h2>
+        <p>
+          Midrange disky jsou univerzálnější a stabilnější než drivery. Jsou ideální pro středně dlouhé hody, kde je
+          důležité zachovat přesnost, ale stále dosáhnout slušné vzdálenosti. Díky své stabilitě jsou skvělou volbou pro
+          hráče, kteří chtějí postupně zlepšovat svou techniku.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Puttery</h2>
+        <p>
+          Puttery jsou disky s nejvyšší kontrolou a nejnižší rychlostí. Používají se zejména pro hody na krátkou
+          vzdálenost a cílení do koše. Puttery mají kulatější hrany a jsou navrženy tak, aby po dopadu na zem
+          neodskočily daleko od cíle. Jsou také ideální pro přesné hody v blízkosti překážek, kde je potřeba precizní
+          hod.
+        </p>
+      </div>
+    </section>
+
+    <!-- Parametry disků -->
+    <section class="aboutInfo">
+      <div class="infoSection">
+        <h2>Hodnoty na discích</h2>
+        <p>
+          Každý discgolfový disk má čtyři základní hodnoty, které popisují jeho letové vlastnosti: rychlost, klouzavost,
+          stabilitu (fade) a otáčení (turn). Tyto hodnoty vám pomohou lépe pochopit, jak se disk bude chovat během hodu,
+          a jsou klíčové při výběru správného disku pro různé situace.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Rychlost</h2>
+        <p>
+          Tato hodnota označuje, jak rychle disk musí být hozen, aby dosáhl svého optimálního letu. Rychlost se obvykle
+          pohybuje na škále od 1 do 14. Disky s vyšší rychlostí (např. 10-14) jsou obvykle drivery určené pro dlouhé
+          vzdálenosti, zatímco disky s nižší rychlostí (1-5) jsou puttery nebo midrange disky. Vyšší rychlost vyžaduje
+          více síly, ale umožňuje disku letět dál.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Klouzavost</h2>
+        <p>
+          Klouzavost určuje, jak dobře disk udrží výšku během letu. Hodnoty klouzavosti se pohybují od 1 do 7, přičemž
+          vyšší číslo znamená, že disk lépe „plachtí“ a může letět dál bez výrazného klesání. Disky s vyšší klouzavostí
+          jsou ideální pro delší hody, kde je potřeba maximálně využít vzdálenost.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Otáčení</h2>
+        <p>
+          Otáčení, také známé jako „turn“, popisuje, jak moc disk odbočuje doprava (u hráčů házejících backhandem pravou
+          rukou) na začátku letu. Hodnota turnu se pohybuje od -5 do +1. Disky s hodnotou turnu -5 budou mít výraznější
+          tendenci se na začátku letu stáčet doprava, zatímco disky s hodnotou +1 jsou velmi stabilní a neztratí směr.
+          Turn je důležitý zejména při hodech proti větru, kde stabilita disku hraje velkou roli.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Stabilita</h2>
+        <p>
+          Fade označuje, jak moc disk zatáčí doleva (u hráčů házejících backhandem pravou rukou) na konci svého letu.
+          Hodnoty fade se pohybují od 0 do 5. Disk s hodnotou fade 0 bude mít velmi rovný let a na konci příliš
+          nezatáčí, zatímco disk s fade 5 bude mít výrazný závěr doleva. Disky s vyšším fade jsou ideální pro technické
+          hody, kde je potřeba, aby disk na konci zatáhl a přesně dopadl. </p>
+      </div>
+
+      <!-- Tabulka -->
+      <div class="tableWrapper">
+        <table class="discsTable">
+          <thead>
+            <tr>
+              <th>Název disku</th>
+              <th>Typ</th>
+              <th>Rychlost</th>
+              <th>Klouzavost</th>
+              <th>Otáčení</th>
+              <th>Stabilita</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Innova Destroyer</td>
+              <td>Distance Driver</td>
+              <td>12</td>
+              <td>5</td>
+              <td>-1</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Discraft Buzzz</td>
+              <td>Midrange</td>
+              <td>5</td>
+              <td>4</td>
+              <td>0</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Dynamic Discs Judge</td>
+              <td>Putter</td>
+              <td>2</td>
+              <td>4</td>
+              <td>0</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Latitude 64 River</td>
+              <td>Fairway Driver</td>
+              <td>7</td>
+              <td>7</td>
+              <td>-1</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footerWrapper">
+    <p class="copyright">&copy; 2024 DiscMasters. Všechna práva vyhrazena.</p>
+    <p class="lastUpdate">Datum poslední aktualizace: <span id="updateDate"></span><br>Tento projekt vznikl jako
+      semestrální projekt.</p>
+    <a class="mailLink" href="mailto:contact@discmasters.cz">contact@discmasters.cz</a>
+  </footer>
+  <!-- Skripty -->
+  <script src="/scripts/lastModified.js" defer></script>
+  <script src="/scripts/hamburgerMenu.js" defer></script>
+</body>
+
+</html>

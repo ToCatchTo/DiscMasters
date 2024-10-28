@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studentský projekt webové stránky">
+  <title>DiscMasters</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="headerWrapper">
+      <!-- Logo -->
+      <a href="index.html" class="logoWrapper">
+        <img class="logo" src="/img/web-icon.svg" alt="Logo" />
+        <h2>DiscMasters</h2>
+      </a>
+      <!-- Navigace -->
+      <nav class="navigation">
+        <ul class="navList">
+          <li><a class="navListItem" href="index.html">Domů</a></li>
+          <li><a class="navListItem" href="about.html">O sportu</a></li>
+          <li><a class="navListItem" href="discs.html">Disky</a></li>
+          <li><a class="navListItem" href="gallery.html">Galerie</a></li>
+          <li><a class="navListItem" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="navMenu" id="navMenu">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="about.html">O sportu</a></li>
+          <li><a href="discs.html">Disky</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Obsah stránky -->
+  <main class="main">
+    <!-- Popis sportu -->
+    <section class="aboutInfo">
+      <div class="infoSection">
+        <h2>Co to je discgolf?</h2>
+        <p>
+          Discgolf je zábavný a dynamický sport, který spojuje prvky tradičního golfu s házením létajících
+          disků (frisbee). Cílem hry je dokončit každou jamku s co nejmenším počtem hodů, přičemž hráč se
+          snaží dostat disk do speciálního discgolfového koše. Na rozdíl od klasického golfu však místo míčků
+          a holí hráči používají různé typy disků, které mají své specifické vlastnosti a jsou určeny pro
+          různé druhy hodů.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Jak se discgolf hraje?</h2>
+        <p>
+          Hřiště pro discgolf se obvykle skládá z 9 nebo 18 jamek, přičemž každá jamka má svůj stanovený „par“
+          – počet hodů, kterým by měl zkušený hráč jamku dokončit. Hra začíná na výhozišti a každý hráč
+          postupně hází disk směrem ke koši. Poté, co disk dopadne na zem, hráč hází z místa, kde disk
+          přistál, až do chvíle, kdy se disk ocitne v koši.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Historie discgolfu</h2>
+        <p>
+          Discgolf vznikl v 70. letech ve Spojených státech a od té doby se rozšířil po celém světě. Díky své
+          jednoduchosti, dostupnosti a možnosti hrát venku v přírodě získává stále více nadšenců. Česká
+          republika není výjimkou a počet discgolfových hřišť i hráčů rok od roku roste.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Tipy a triky pro zlepšení hry</h2>
+        <p>
+          Pro začátečníky je důležité věnovat pozornost nejen správné technice hodu, ale také výběru správného
+          typu disku pro různé situace. Existují disky pro dlouhé hody (tzv. drivy), střední vzdálenosti
+          (midrange disky) a krátké, přesné hody do koše (puttery). Klíčem k úspěchu je najít rovnováhu mezi
+          přesností a vzdáleností hodů. Důležité je také osvojit si různé typy hodů, jako je "forehand" (hod z
+          boku) nebo "backhand" (klasický hod zezadu). Při hraní na různých hřištích si hráči mohou vyzkoušet
+          různé taktiky a zlepšovat své dovednosti v různorodých podmínkách.
+        </p>
+      </div>
+      <div class="infoSection">
+        <h2>Proč hrát discgolf?</h2>
+        <p>
+          Discgolf je skvělý sport pro lidi všech věkových kategorií a fyzických úrovní. Je to skvělý způsob,
+          jak strávit čas na čerstvém vzduchu, zlepšit si kondici a zároveň se pobavit s přáteli. Kromě toho,
+          discgolfová komunita je známá svou přátelskou atmosférou, což z něj dělá ideální sport pro všechny,
+          kdo hledají zábavu a relax.
+          Mohl by jsi tento text rozšířit?
+        </p>
+      </div>
+    </section>
+
+  </main>
+  <!-- Footer -->
+  <footer class="footerWrapper">
+    <p class="copyright">&copy; 2024 DiscMasters. Všechna práva vyhrazena.</p>
+    <p class="lastUpdate">Datum poslední aktualizace: <span id="updateDate"></span><br>Tento projekt vznikl jako
+      semestrální projekt.</p>
+    <a class="mailLink" href="mailto:contact@discmasters.cz">contact@discmasters.cz</a>
+  </footer>
+  <!-- Skripty -->
+  <script src="/scripts/lastModified.js" defer></script>
+  <script src="/scripts/hamburgerMenu.js" defer></script>
+</body>
+
+</html>

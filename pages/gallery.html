@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Studentský projekt webové stránky">
+  <title>DiscMasters</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="headerWrapper">
+      <!-- Logo -->
+      <a href="index.html" class="logoWrapper">
+        <img class="logo" src="/img/web-icon.svg" alt="Logo" />
+        <h2>DiscMasters</h2>
+      </a>
+      <!-- Navigace -->
+      <nav class="navigation">
+        <ul class="navList">
+          <li><a class="navListItem" href="index.html">Domů</a></li>
+          <li><a class="navListItem" href="about.html">O sportu</a></li>
+          <li><a class="navListItem" href="discs.html">Disky</a></li>
+          <li><a class="navListItem" href="gallery.html">Galerie</a></li>
+          <li><a class="navListItem" href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav class="navMenu" id="navMenu">
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="about.html">O sportu</a></li>
+          <li><a href="discs.html">Disky</a></li>
+          <li><a href="gallery.html">Galerie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburgerBtn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+  <!-- Obsah stránky -->
+  <main class="main">
+    <div class="galleryWrapper">
+      <img class="galleryItem" src="/img/basket.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/playgrounds-about.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/kid-throwing.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/man-throwing.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/basket2.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/basket3.jpg" alt="Obrázek z galerie" />
+      <img class="galleryItem" src="/img/sunrise.jpg" alt="Obrázek z galerie" />
+    </div>
+
+    <div id="imageOverlay" class="overlay">
+      <span id="closeOverlay" class="closeButton">&times;</span>
+      <img class="overlayImg" id="enlargedImg" src="" alt="Rozkliknutý obrázek" />
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="footerWrapper">
+    <p class="copyright">&copy; 2024 DiscMasters. Všechna práva vyhrazena.</p>
+    <p class="lastUpdate">Datum poslední aktualizace: <span id="updateDate"></span><br>Tento projekt vznikl jako
+      semestrální projekt.</p>
+    <a class="mailLink" href="mailto:contact@discmasters.cz">contact@discmasters.cz</a>
+  </footer>
+  <!-- Skripty -->
+  <script src="/scripts/lastModified.js" defer></script>
+  <script src="/scripts/hamburgerMenu.js" defer></script>
+  <script src="/scripts/gallery.js" defer></script>
+</body>
+
+</html>
